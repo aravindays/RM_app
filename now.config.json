@@ -1,0 +1,6 @@
+{
+  "scope": "x_7767_release_man",
+  "scopeId": "19a27cee83593210b243f0ffeeaad3e6",
+  "name": "Release Mana",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}

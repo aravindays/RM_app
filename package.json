@@ -1,0 +1,22 @@
+{
+    "name": "x-7767-release-mana",
+    "version": "1.0.0",
+    "description": "[BUILD AGENT GENERATED]:  Unified calendar management and release features tracking system for sprint-based deployments with interactive portal interfaces",
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "now-sdk build",
+        "deploy": "now-sdk install",
+        "transform": "now-sdk transform",
+        "types": "now-sdk dependencies"
+    },
+    "devDependencies": {
+        "@servicenow/sdk": "4.0.2",
+        "@servicenow/glide": "26.0.1",
+        "eslint": "8.50.0",
+        "@servicenow/eslint-plugin-sdk-app-plugin": "4.0.2"
+    },
+    "dependencies": {
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
+    }
+}
