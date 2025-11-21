@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="product" table="x_7767_release_man_release_features" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>product</element>
+            <name>x_7767_release_man_release_features</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>product</sys_name>
+            <sys_package display_value="Release Mana" source="x_7767_release_man">19a27cee83593210b243f0ffeeaad3e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Release Mana">19a27cee83593210b243f0ffeeaad3e6</sys_scope>
+            <sys_update_name>sys_choice_x_7767_release_man_release_features_product</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITSM - IT Service Management</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>itsm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITOM - IT Operations Management</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>itom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITAM - IT Asset Management</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>itam</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>APM - Application Portfolio Management</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>apm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SDO - Service Delivery Optimization</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>sdo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IRM - Integrated Risk Management</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>irm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HRSD - HR Service Delivery</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>hrsd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LSD - Legal Service Delivery</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>lsd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>product</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SPM - Strategic Portfolio Management</label>
+            <language>en</language>
+            <name>x_7767_release_man_release_features</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-11-21 18:33:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-11-21 18:33:56</sys_updated_on>
+            <value>spm</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f184b8e283993210b243f0ffeeaad3b2" label="Release Features" max_length="40" name="x_7767_release_man_release_features" type="collection">
+        <element label="Out of Update Set" max_length="40" name="out_of_update_set" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Post-deployment Activities" max_length="4000" name="post_deployment_activities" type="string"/>
+        <element label="Estimated Duration (minutes)" max_length="40" name="estimated_duration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Story Number" mandatory="true" max_length="50" name="story_number" type="string"/>
+        <element label="UAT Completed" max_length="40" name="uat_completed" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Release" mandatory="true" max_length="32" name="release" reference="rm_release" type="reference"/>
+        <element choice="3" label="Deployment Type" mandatory="true" max_length="40" name="deployment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Data Load" sequence="2" value="data_load"/>
+                <element inactive_on_update="false" label="Post-deployment Step" sequence="6" value="post_deploy"/>
+                <element inactive_on_update="false" label="XML Import" sequence="3" value="xml_import"/>
+                <element inactive_on_update="false" label="Batch Update" sequence="7" value="batch"/>
+                <element inactive_on_update="false" label="Update Set" sequence="0" value="update_set"/>
+                <element inactive_on_update="false" label="Plugin Activation" sequence="4" value="plugin"/>
+                <element inactive_on_update="false" label="Manual Configuration" sequence="1" value="manual_config"/>
+                <element inactive_on_update="false" label="Pre-deployment Step" sequence="5" value="pre_deploy"/>
+            </choice>
+        </element>
+        <element label="Deployment Sequence" mandatory="true" max_length="40" name="deployment_sequence" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Review Comments" max_length="4000" name="review_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rollback Procedure" max_length="4000" name="rollback_procedure" type="string"/>
+        <element label="Actual Duration (minutes)" max_length="40" name="actual_duration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Short Description" mandatory="true" max_length="255" name="short_description" type="string"/>
+        <element choice="3" label="Product" mandatory="true" max_length="40" name="product" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ITSM - IT Service Management" sequence="0" value="itsm"/>
+                <element inactive_on_update="false" label="SDO - Service Delivery Optimization" sequence="4" value="sdo"/>
+                <element inactive_on_update="false" label="SPM - Strategic Portfolio Management" sequence="8" value="spm"/>
+                <element inactive_on_update="false" label="ITOM - IT Operations Management" sequence="1" value="itom"/>
+                <element inactive_on_update="false" label="IRM - Integrated Risk Management" sequence="5" value="irm"/>
+                <element inactive_on_update="false" label="ITAM - IT Asset Management" sequence="2" value="itam"/>
+                <element inactive_on_update="false" label="HRSD - HR Service Delivery" sequence="6" value="hrsd"/>
+                <element inactive_on_update="false" label="APM - Application Portfolio Management" sequence="3" value="apm"/>
+                <element inactive_on_update="false" label="LSD - Legal Service Delivery" sequence="7" value="lsd"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Update Set Name" max_length="255" name="update_set_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Deployment Dependency" max_length="500" name="deployment_dependency" type="string"/>
+        <element attributes="encode_utf8=false" label="Tech Lead" max_length="32" name="techlead" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Validation Steps" max_length="4000" name="validation_steps" type="string"/>
+        <element choice="1" default="draft" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rollback" sequence="6" value="rollback"/>
+                <element inactive_on_update="false" label="In Review" sequence="2" value="review"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Deployed" sequence="4" value="deployed"/>
+                <element inactive_on_update="false" label="Ready for Review" sequence="1" value="ready"/>
+                <element inactive_on_update="false" label="Failed" sequence="5" value="failed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Developer" mandatory="true" max_length="32" name="developer" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Application Scope" max_length="32" name="application_scope" reference="sys_scope" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Pre-deployment Activities" max_length="4000" name="pre_deployment_activities" type="string"/>
+        <index name="index">
+            <element name="application_scope"/>
+        </index>
+        <index name="index2">
+            <element name="developer"/>
+        </index>
+        <index name="index3">
+            <element name="release"/>
+        </index>
+        <index name="index4">
+            <element name="techlead"/>
+        </index>
+    </element>
+</database>
